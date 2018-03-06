@@ -22,4 +22,12 @@ public class MyReclcyerView extends RecyclerView {
     public MyReclcyerView(Context context, @Nullable AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
     }
+
+    @Override
+    public void setAdapter(Adapter adapter) {
+        super.setAdapter(adapter);
+    }
+
+
+
 }
